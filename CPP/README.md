@@ -67,4 +67,8 @@ int main() {
 }
 ```
 
+This submission scored **100/100** on Eolymp. The solution uses array manipulation: the numbers stay in one vector, and each pass keeps the surviving values in that same array.
+
+![Eolymp result: 100/100 on problem 1964](100-score.png)
+
 The source file is [CPP/main.cpp](CPP/main.cpp). It stores `1..n` in a vector and filters that array in place. Each index `i` is turned into a 1-based position `i + 1`. Kept values are written back to the front of the vector, so the next pass numbers those positions from 1. The loop stops when one value remains.
