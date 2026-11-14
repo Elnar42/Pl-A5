@@ -1,23 +1,3 @@
-# What is left?
-
-[What is left? #1964](https://eolymp.com/problems/1964)
-
-Numbers from 1 to `n` are written in a row. Their positions start at 1. Three passes repeat until one number is left:
-
-1. Remove every number in an even position.
-2. Number the remaining values from 1 again, then remove every number in an odd position.
-3. Number the remaining values from 1 again, then remove every number in a position divisible by 3.
-
-The next pass is even positions again, then odd positions, then positions divisible by 3.
-
-**Input.** One integer `n` (`1 ≤ n ≤ 10^8`).
-
-**Output.** The last remaining number.
-
-**Sample.** Input `10`, output `3`.
-
-**Limits.** 5 seconds, 512 MB.
-
 ## Run it on Eolymp
 
 Compiler: **Haskell (ghc 8.8)**
